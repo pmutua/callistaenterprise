@@ -9,6 +9,6 @@ import (
 var appName = "accountservice"
 
 func main() {
-	fmt.Printf("Start %v\n", appName)
-	service.StartWebServer("6767") //Hardcode port number
+	fmt.Printf("Starting %v\n", appName)
+	service.StartWebServer("6767")
 }
